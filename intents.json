@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later"],
+      "responses": ["Bye!", "See you soon!", "Take care!", "Goodbye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening hours?"],
+      "responses": ["We're open from 9am to 5pm, Monday to Friday."]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["What payment methods do you accept?", "Do you take credit cards?", "Can I pay with PayPal?"],
+      "responses": ["We accept credit cards, debit cards, and PayPal."]
+    }
+  ]
+}
